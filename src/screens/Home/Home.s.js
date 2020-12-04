@@ -16,4 +16,7 @@ export default StyleSheet.create({
   title: {
     fontSize: wp(7),
   },
+  resetText: {
+    fontSize: wp(4),
+  },
 });

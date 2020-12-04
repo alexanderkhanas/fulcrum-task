@@ -2,7 +2,7 @@
 
 ####Using apk file (android only)
 
-1. Download apk file (attached to linkedin message)
+1. Download apk file (attached to linkedin message or `android/app/build/outputs/apk/release/app-release.apk`)
 2. Install on your device
 3. Run it on your device
 

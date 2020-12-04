@@ -37,7 +37,7 @@ const Chart = ({ chart }: ReturnType<typeof mapStateToProps>) => {
 
   const chartBaseProps = {
     data: chartData,
-    width: wp(100),
+    width: wp(100) - 20,
     chartConfig,
     fromZero: true,
     height: hp(50),

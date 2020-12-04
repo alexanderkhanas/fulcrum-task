@@ -5,9 +5,6 @@ export class Socket {
 
   constructor() {
     this.ws = new WebSocket('ws://fulcrum-test-task.herokuapp.com/:8080');
-    this.ws.onerror = (err) => {
-      console.log('err ===', err);
-    };
   }
 
   onMessageReceive(callback: (msg: ChartItemInterface) => any) {

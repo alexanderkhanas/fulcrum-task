@@ -25,7 +25,7 @@ const Home = ({ clearChart, addChartItem }: Props) => {
       <View style={s.titleContainer}>
         <Text style={s.title}>Chart</Text>
         <TouchableOpacity onPress={clearChart}>
-          <Text>Reset</Text>
+          <Text style={s.resetText}>Reset</Text>
         </TouchableOpacity>
       </View>
       <Chart />
